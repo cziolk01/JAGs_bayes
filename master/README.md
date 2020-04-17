@@ -3,11 +3,12 @@
 Caleb Ziolkowski
 9/25/2019
 
-Here I've gathered a few things together for our `R` review session. Please have a look through this document to make sure you're ready and we can avoid spending most of our time on installation issues. 
+Here I've gathered a few things together to get `JAGS` up and running. 
 
 ## Installing `R`/`RStudio`
 
-The first order of business is to make sure you have `R` and `RStudio` up and running. If you do not have these set up, do the following, in order.
+Hopfeully this is old news. But if you haven't done this, here are some directions.
+
 1. Install `R`.
 2. Install `RStudio`.
 
@@ -35,6 +36,33 @@ rnorm(5)
 
 to confirm that things are probably as they should be. 
 
+## Install `JAGS`
+
+This will depend a bit on your operating system. If your using Linux, try to figure it out on your own. My prior is that you would like this task. 
+
+**For Windows:**
+
+> These are Windows binaries for JAGS 4.x.y. \n\n
+> Two binary packages are available for the latest release, JAGS 4.2.0. If
+you are using R to interface with JAGS then you must ensure that you
+download the correct binary: \n\n
+> If you are using R 3.3.0 or later then install JAGS-4.2.0-Rtools33.exe \n
+> If you are using R 3.2.4 or earlier then install JAGS-4.2.0.exe
+
+> For more details, see:
+https://martynplummer.wordpress.com/2016/04/05/new-windows-binary-for-r-3-3-0/
+
+
 ## Install some packages
 
-There are a few different packages that will show up in the review session. I suggest you install them ahead of time. Priority should be given to `tidyverse`.
+### General packages you will probably see me use
+
+There are a few different packages that I will use almost all the time in `R`: `tidyverse` and `magrittr`. If you want to use these (and you should, expecially `tidyverse`), use the commands
+
+```
+install.packages('tidyverse')
+install.packages('magrittr')
+```
+
+### `rjags` is how I will pass models to `JAGS` from `R`
+
