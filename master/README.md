@@ -90,4 +90,4 @@ install.packages('mcmcplots')
 
 ## `.Rmd` to test everything
 
- I have a `.Rmd`--[here]()--that you can run through to make sure things seem to be working. You can check it against [this .pdf]() or [this .html](), allowing for sampling variability. 
+ I have a `.Rmd`--[here](https://github.com/cziolk01/JAGs_bayes/blob/master/JAGS_bayes.Rmd)--that you can run through to make sure things seem to be working. You can check it against [this .pdf](https://github.com/cziolk01/JAGs_bayes/blob/master/JAGS_bayes.pdf) or [this .html](https://github.com/cziolk01/JAGs_bayes/blob/master/JAGS_bayes.html), allowing for sampling variability. 
