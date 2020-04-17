@@ -56,6 +56,8 @@ https://martynplummer.wordpress.com/2016/04/05/new-windows-binary-for-r-3-3-0/
 
 **For Mac:**
 
+Download the package [here](https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Mac%20OS%20X/). I think if you look at the `README` file and follow the instructions you should be good. 
+
 ## Install some packages
 
 ### General packages you will probably see me use
@@ -69,3 +71,23 @@ install.packages('magrittr')
 
 ### `rjags` is how I will pass models to `JAGS` from `R`
 
+If you've installed `JAGS`, hopefully this will be pretty easy to install. 
+
+```
+install.packages('rjags')
+```
+
+### Other packages that are useful when working with `JAGS` via `R`
+
+Installing this list of packages is recommended:
+
+```
+install.packages('pscl')
+install.packages('coda')
+install.packages('bayesplot')
+install.packages('mcmcplots')
+```
+
+## `.Rmd` to test everything
+
+ I have a `.Rmd`--[here]()--that you can run through to make sure things seem to be working. You can check it against [this .pdf]() or [this .html](), allowing for sampling variability. 
