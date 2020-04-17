@@ -38,7 +38,7 @@ to confirm that things are probably as they should be.
 
 ## Install `JAGS`
 
-This will depend a bit on your operating system. If your using Linux, try to figure it out on your own. My prior is that you would like this task. 
+This will depend a bit on your operating system. If you're using Linux, try to figure it out on your own. My prior is that you would like this task. 
 
 **For Windows:**
 
