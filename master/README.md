@@ -42,18 +42,19 @@ This will depend a bit on your operating system. If your using Linux, try to fig
 
 **For Windows:**
 
-> These are Windows binaries for JAGS 4.x.y. \
-\
+You can download the correct `.exe` file [here](https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Windows/). Note, you need to be sure to grab the right one, depending on your version of `R`. On starting `R` or `RStudio`, the console will display the current version. Likewise you can type `version` into the console and return. Quoted from the download site:
+
 > Two binary packages are available for the latest release, JAGS 4.2.0. If
 you are using R to interface with JAGS then you must ensure that you
 download the correct binary: \
 \
 > If you are using R 3.3.0 or later then install JAGS-4.2.0-Rtools33.exe \
-> If you are using R 3.2.4 or earlier then install JAGS-4.2.0.exe
-
+> If you are using R 3.2.4 or earlier then install JAGS-4.2.0.exe \
+\
 > For more details, see:
 https://martynplummer.wordpress.com/2016/04/05/new-windows-binary-for-r-3-3-0/
 
+**For Mac:**
 
 ## Install some packages
 
